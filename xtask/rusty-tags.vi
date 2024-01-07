@@ -1,0 +1,387 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+Adhoc	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/kind.rs	/^impl Adhoc {$/;"	c
+Adhoc	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/kind.rs	/^pub struct Adhoc;$/;"	s
+AdhocKind	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/kind.rs	/^pub trait AdhocKind: Sized {$/;"	i
+Architecture	/home/xortex/git/github.com/elauriault/xdp-nat/xtask/src/build_ebpf.rs	/^impl std::fmt::Display for Architecture {$/;"	c
+Architecture	/home/xortex/git/github.com/elauriault/xdp-nat/xtask/src/build_ebpf.rs	/^impl std::str::FromStr for Architecture {$/;"	c
+Architecture	/home/xortex/git/github.com/elauriault/xdp-nat/xtask/src/build_ebpf.rs	/^pub enum Architecture {$/;"	g
+B	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/ensure.rs	/^impl<A, B> BothDebug for (A, B)$/;"	c
+B	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/ensure.rs	/^impl<A, B> NotBothDebug for &(A, B) {$/;"	c
+Backtrace	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/backtrace.rs	/^    impl Backtrace {$/;"	c	module:capture
+Backtrace	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/backtrace.rs	/^    impl Debug for Backtrace {$/;"	c	module:capture
+Backtrace	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/backtrace.rs	/^    impl Display for Backtrace {$/;"	c	module:capture
+Backtrace	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/backtrace.rs	/^    pub(crate) struct Backtrace {$/;"	s	module:capture
+Backtrace	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/backtrace.rs	/^pub(crate) enum Backtrace {}$/;"	g
+BacktraceFrame	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/backtrace.rs	/^    impl Debug for BacktraceFrame {$/;"	c	module:capture
+BacktraceFrame	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/backtrace.rs	/^    struct BacktraceFrame {$/;"	s	module:capture
+BacktraceStatus	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/backtrace.rs	/^    pub(crate) enum BacktraceStatus {$/;"	g	module:capture
+BacktraceSymbol	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/backtrace.rs	/^    impl Debug for BacktraceSymbol {$/;"	c	module:capture
+BacktraceSymbol	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/backtrace.rs	/^    struct BacktraceSymbol {$/;"	s	module:capture
+BothDebug	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/ensure.rs	/^pub trait BothDebug {$/;"	i
+Box	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/error.rs	/^impl From<Error> for Box<dyn StdError + 'static> {$/;"	c
+Box	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/error.rs	/^impl From<Error> for Box<dyn StdError + Send + 'static> {$/;"	c
+Box	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/error.rs	/^impl From<Error> for Box<dyn StdError + Send + Sync + 'static> {$/;"	c
+Box	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/kind.rs	/^impl BoxedKind for Box<dyn StdError + Send + Sync> {}$/;"	c
+Boxed	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/kind.rs	/^impl Boxed {$/;"	c
+Boxed	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/kind.rs	/^pub struct Boxed;$/;"	s
+BoxedError	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/wrapper.rs	/^impl Debug for BoxedError {$/;"	c
+BoxedError	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/wrapper.rs	/^impl Display for BoxedError {$/;"	c
+BoxedError	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/wrapper.rs	/^impl StdError for BoxedError {$/;"	c
+BoxedError	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/wrapper.rs	/^pub struct BoxedError(pub Box<dyn StdError + Send + Sync>);$/;"	s
+BoxedKind	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/kind.rs	/^pub trait BoxedKind: Sized {$/;"	i
+BpfEb	/home/xortex/git/github.com/elauriault/xdp-nat/xtask/src/build_ebpf.rs	/^    BpfEb,$/;"	e	enum:Architecture
+BpfEl	/home/xortex/git/github.com/elauriault/xdp-nat/xtask/src/build_ebpf.rs	/^    BpfEl,$/;"	e	enum:Architecture
+Buf	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/ensure.rs	/^impl Buf {$/;"	c
+Buf	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/ensure.rs	/^impl Write for Buf {$/;"	c
+Buf	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/ensure.rs	/^struct Buf {$/;"	s
+Buffered	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/chain.rs	/^    Buffered {$/;"	e	enum:ChainState
+BuildEbpf	/home/xortex/git/github.com/elauriault/xdp-nat/xtask/src/main.rs	/^    BuildEbpf(build_ebpf::Options),$/;"	e	enum:Command
+Bytes	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/backtrace.rs	/^        Bytes(Vec<u8>),$/;"	e	enum:capture::BytesOrWide
+BytesOrWide	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/backtrace.rs	/^    enum BytesOrWide {$/;"	g	module:capture
+BytesOrWide	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/backtrace.rs	/^    impl Debug for BytesOrWide {$/;"	c	module:capture
+Capture	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/backtrace.rs	/^    impl Capture {$/;"	c	module:capture
+Capture	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/backtrace.rs	/^    struct Capture {$/;"	s	module:capture
+Captured	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/backtrace.rs	/^        Captured(LazilyResolvedCapture),$/;"	e	enum:capture::Inner
+Captured	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/backtrace.rs	/^        Captured,$/;"	e	enum:capture::BacktraceStatus
+CastTo	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/ptr.rs	/^pub trait CastTo {$/;"	i
+Chain	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/chain.rs	/^impl Default for Chain<'_> {$/;"	c
+Chain	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/chain.rs	/^impl DoubleEndedIterator for Chain<'_> {$/;"	c
+Chain	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/chain.rs	/^impl ExactSizeIterator for Chain<'_> {$/;"	c
+Chain	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/chain.rs	/^impl<'a> Chain<'a> {$/;"	c
+Chain	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/chain.rs	/^impl<'a> Iterator for Chain<'a> {$/;"	c
+Chain	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/chain.rs	/^pub(crate) struct Chain<'a> {$/;"	s
+Chain	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/lib.rs	/^pub struct Chain<'a> {$/;"	s
+ChainState	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/chain.rs	/^pub(crate) enum ChainState<'a> {$/;"	g
+Command	/home/xortex/git/github.com/elauriault/xdp-nat/xtask/src/main.rs	/^enum Command {$/;"	g
+Context	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/lib.rs	/^pub trait Context<T, E>: context::private::Sealed {$/;"	i
+ContextError	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/context.rs	/^impl<C, E> Debug for ContextError<C, E>$/;"	c
+ContextError	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/context.rs	/^impl<C, E> Display for ContextError<C, E>$/;"	c
+ContextError	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/context.rs	/^impl<C, E> StdError for ContextError<C, E>$/;"	c
+ContextError	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/context.rs	/^impl<C> StdError for ContextError<C, Error>$/;"	c
+ContextError	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/error.rs	/^pub(crate) struct ContextError<C, E> {$/;"	s
+Disabled	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/backtrace.rs	/^        Disabled,$/;"	e	enum:capture::BacktraceStatus
+Disabled	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/backtrace.rs	/^        Disabled,$/;"	e	enum:capture::Inner
+DisplayError	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/wrapper.rs	/^impl<M> Debug for DisplayError<M>$/;"	c
+DisplayError	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/wrapper.rs	/^impl<M> Display for DisplayError<M>$/;"	c
+DisplayError	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/wrapper.rs	/^impl<M> StdError for DisplayError<M> where M: Display + 'static {}$/;"	c
+DisplayError	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/wrapper.rs	/^pub struct DisplayError<M>(pub M);$/;"	s
+E	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/context.rs	/^    impl<E> StdError for E$/;"	c	module:ext
+E	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/kind.rs	/^impl<E> TraitKind for E where E: Into<Error> {}$/;"	c
+ENABLED	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/backtrace.rs	/^            static ENABLED: AtomicUsize = AtomicUsize::new(0);$/;"	v	method:capture::Backtrace::enabled
+Err	/home/xortex/git/github.com/elauriault/xdp-nat/xtask/src/build_ebpf.rs	/^    type Err = String;$/;"	t	implementation:Architecture
+Error	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/context.rs	/^    impl StdError for Error {$/;"	c	module:ext
+Error	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/error.rs	/^impl AsRef<dyn StdError + Send + Sync> for Error {$/;"	c
+Error	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/error.rs	/^impl AsRef<dyn StdError> for Error {$/;"	c
+Error	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/error.rs	/^impl Debug for Error {$/;"	c
+Error	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/error.rs	/^impl Deref for Error {$/;"	c
+Error	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/error.rs	/^impl DerefMut for Error {$/;"	c
+Error	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/error.rs	/^impl Display for Error {$/;"	c
+Error	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/error.rs	/^impl Drop for Error {$/;"	c
+Error	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/error.rs	/^impl Error {$/;"	c
+Error	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/error.rs	/^impl<E> From<E> for Error$/;"	c
+Error	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/lib.rs	/^pub struct Error {$/;"	s
+ErrorImpl	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/error.rs	/^impl ErrorImpl {$/;"	c
+ErrorImpl	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/error.rs	/^impl<E> Debug for ErrorImpl<E>$/;"	c
+ErrorImpl	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/error.rs	/^impl<E> Display for ErrorImpl<E>$/;"	c
+ErrorImpl	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/error.rs	/^impl<E> ErrorImpl<E> {$/;"	c
+ErrorImpl	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/error.rs	/^impl<E> StdError for ErrorImpl<E>$/;"	c
+ErrorImpl	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/error.rs	/^pub(crate) struct ErrorImpl<E = ()> {$/;"	s
+ErrorImpl	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/fmt.rs	/^impl ErrorImpl {$/;"	c
+ErrorVTable	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/error.rs	/^    unsafe { *(p.as_ptr() as *const &'static ErrorVTable) }$/;"	v	function:vtable
+ErrorVTable	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/error.rs	/^struct ErrorVTable {$/;"	s
+Indented	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/fmt.rs	/^impl<T> Write for Indented<'_, T>$/;"	c
+Indented	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/fmt.rs	/^struct Indented<'a, D> {$/;"	s
+Inner	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/backtrace.rs	/^    enum Inner {$/;"	g	module:capture
+Item	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/chain.rs	/^    type Item = &'a (dyn StdError + 'static);$/;"	t	implementation:Chain
+LazilyResolvedCapture	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/backtrace.rs	/^    impl LazilyResolvedCapture {$/;"	c	module:capture
+LazilyResolvedCapture	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/backtrace.rs	/^    struct LazilyResolvedCapture {$/;"	s	module:capture
+LazilyResolvedCapture	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/backtrace.rs	/^    unsafe impl Sync for LazilyResolvedCapture where Capture: Sync {}$/;"	c	module:capture
+Linked	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/chain.rs	/^    Linked {$/;"	e	enum:ChainState
+MessageError	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/wrapper.rs	/^impl<M> Debug for MessageError<M>$/;"	c
+MessageError	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/wrapper.rs	/^impl<M> Display for MessageError<M>$/;"	c
+MessageError	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/wrapper.rs	/^impl<M> StdError for MessageError<M> where M: Display + Debug + 'static {}$/;"	c
+MessageError	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/wrapper.rs	/^pub struct MessageError<M>(pub M);$/;"	s
+Mut	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/ptr.rs	/^impl<'a, T> Clone for Mut<'a, T>$/;"	c
+Mut	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/ptr.rs	/^impl<'a, T> Copy for Mut<'a, T> where T: ?Sized {}$/;"	c
+Mut	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/ptr.rs	/^impl<'a, T> Mut<'a, T> {$/;"	c
+Mut	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/ptr.rs	/^impl<'a, T> Mut<'a, T>$/;"	c
+Mut	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/ptr.rs	/^pub struct Mut<'a, T>$/;"	s
+NotBothDebug	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/ensure.rs	/^pub trait NotBothDebug {$/;"	i
+Ok	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/lib.rs	/^pub fn Ok<T>(t: T) -> Result<T> {$/;"	f
+Option	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/context.rs	/^    impl<T> Sealed for Option<T> {}$/;"	c	module:private
+Option	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/context.rs	/^impl<T> Context<T, Infallible> for Option<T> {$/;"	c
+Options	/home/xortex/git/github.com/elauriault/xdp-nat/xtask/src/build_ebpf.rs	/^pub struct Options {$/;"	s
+Options	/home/xortex/git/github.com/elauriault/xdp-nat/xtask/src/main.rs	/^pub struct Options {$/;"	s
+Options	/home/xortex/git/github.com/elauriault/xdp-nat/xtask/src/run.rs	/^pub struct Options {$/;"	s
+Own	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/ptr.rs	/^impl<T> Clone for Own<T>$/;"	c
+Own	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/ptr.rs	/^impl<T> Copy for Own<T> where T: ?Sized {}$/;"	c
+Own	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/ptr.rs	/^impl<T> Own<T>$/;"	c
+Own	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/ptr.rs	/^pub struct Own<T>$/;"	s
+Own	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/ptr.rs	/^unsafe impl<T> Send for Own<T> where T: ?Sized {}$/;"	c
+Own	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/ptr.rs	/^unsafe impl<T> Sync for Own<T> where T: ?Sized {}$/;"	c
+Quoted	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/context.rs	/^impl Write for Quoted<&mut fmt::Formatter<'_>> {$/;"	c
+Quoted	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/context.rs	/^impl<C> Debug for Quoted<C>$/;"	c
+Quoted	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/context.rs	/^struct Quoted<C>(C);$/;"	s
+Ref	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/ptr.rs	/^impl<'a, T> Clone for Ref<'a, T>$/;"	c
+Ref	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/ptr.rs	/^impl<'a, T> Copy for Ref<'a, T> where T: ?Sized {}$/;"	c
+Ref	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/ptr.rs	/^impl<'a, T> Ref<'a, T>$/;"	c
+Ref	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/ptr.rs	/^pub struct Ref<'a, T>$/;"	s
+Result	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/context.rs	/^    impl<T, E> Sealed for Result<T, E> where E: ext::StdError {}$/;"	c	module:private
+Result	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/context.rs	/^impl<T, E> Context<T, E> for Result<T, E>$/;"	c
+Result	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/lib.rs	/^pub type Result<T, E = Error> = core::result::Result<T, E>;$/;"	t
+Run	/home/xortex/git/github.com/elauriault/xdp-nat/xtask/src/main.rs	/^    Run(run::Options),$/;"	e	enum:Command
+Sealed	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/context.rs	/^    pub trait Sealed {}$/;"	i	module:private
+StdError	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/context.rs	/^    pub trait StdError {$/;"	i	module:ext
+StdError	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/lib.rs	/^trait StdError: Debug + Display {$/;"	i
+T	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/kind.rs	/^impl<T> AdhocKind for &T where T: ?Sized + Display + Debug + Send + Sync + 'static {}$/;"	c
+T	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/ptr.rs	/^impl<T> CastTo for T {$/;"	c
+Target	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/error.rs	/^    type Target = dyn StdError + Send + Sync + 'static;$/;"	t	implementation:Error
+Target	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/ptr.rs	/^    type Target = T;$/;"	t	implementation:T
+Target	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/ptr.rs	/^    type Target;$/;"	t	interface:CastTo
+Trait	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/kind.rs	/^impl Trait {$/;"	c
+Trait	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/kind.rs	/^pub struct Trait;$/;"	s
+TraitKind	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/kind.rs	/^pub trait TraitKind: Sized {$/;"	i
+Unsupported	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/backtrace.rs	/^        Unsupported,$/;"	e	enum:capture::BacktraceStatus
+Unsupported	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/backtrace.rs	/^        Unsupported,$/;"	e	enum:capture::Inner
+Wide	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/backtrace.rs	/^        Wide(Vec<u16>),$/;"	e	enum:capture::BytesOrWide
+__anyhow	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/macros.rs	/^macro_rules! __anyhow {$/;"	M
+__dispatch_ensure	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/ensure.rs	/^    fn __dispatch_ensure(self, msg: &'static str) -> Error {$/;"	P	implementation:B
+__dispatch_ensure	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/ensure.rs	/^    fn __dispatch_ensure(self, msg: &'static str) -> Error {$/;"	f
+__dispatch_ensure	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/ensure.rs	/^    fn __dispatch_ensure(self, msg: &'static str) -> Error;$/;"	P	interface:BothDebug
+__dispatch_ensure	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/ensure.rs	/^    fn __dispatch_ensure(self, msg: &'static str) -> Error;$/;"	P	interface:NotBothDebug
+__fallback_ensure	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/ensure.rs	/^macro_rules! __fallback_ensure {$/;"	M
+__fancy_ensure	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/ensure.rs	/^macro_rules! __fancy_ensure {$/;"	M
+__parse_ensure	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/ensure.rs	/^macro_rules! __parse_ensure {$/;"	M
+__private	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/lib.rs	/^pub mod __private {$/;"	n
+_assert	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/backtrace.rs	/^    fn _assert<T: Send + Sync>() {}$/;"	f	function:_assert_send_sync
+_assert_send_sync	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/backtrace.rs	/^fn _assert_send_sync() {$/;"	f
+_cookbook	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/clap-4.4.13/src/lib.rs	/^pub mod _cookbook;$/;"	n
+_derive	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/clap-4.4.13/src/lib.rs	/^pub mod _derive;$/;"	n
+_faq	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/clap-4.4.13/src/lib.rs	/^pub mod _faq;$/;"	n
+_features	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/clap-4.4.13/src/lib.rs	/^pub mod _features;$/;"	n
+_object	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/error.rs	/^    _object: E,$/;"	m	struct:ErrorImpl
+_tutorial	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/clap-4.4.13/src/_derive/mod.rs	/^pub mod _tutorial;$/;"	n
+_tutorial	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/clap-4.4.13/src/lib.rs	/^pub mod _tutorial;$/;"	n
+actual_start	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/backtrace.rs	/^        actual_start: usize,$/;"	m	struct:capture::Capture
+anyhow	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/macros.rs	/^macro_rules! anyhow {$/;"	M
+anyhow_kind	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/kind.rs	/^    fn anyhow_kind(&self) -> Adhoc {$/;"	P	interface:AdhocKind
+anyhow_kind	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/kind.rs	/^    fn anyhow_kind(&self) -> Boxed {$/;"	P	interface:BoxedKind
+anyhow_kind	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/kind.rs	/^    fn anyhow_kind(&self) -> Trait {$/;"	P	interface:TraitKind
+as_ptr	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/ptr.rs	/^    pub fn as_ptr(self) -> *const T {$/;"	f
+as_ref	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/error.rs	/^    fn as_ref(&self) -> &(dyn StdError + 'static) {$/;"	P	implementation:Error
+as_ref	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/error.rs	/^    fn as_ref(&self) -> &(dyn StdError + Send + Sync + 'static) {$/;"	P	implementation:Error
+as_str	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/ensure.rs	/^    fn as_str(&self) -> &str {$/;"	P	implementation:Buf
+backtrace	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/backtrace.rs	/^macro_rules! backtrace {$/;"	M
+backtrace	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/error.rs	/^    backtrace: Option<Backtrace>,$/;"	m	struct:ErrorImpl
+backtrace	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/error.rs	/^    pub fn backtrace(&self) -> &impl_backtrace!() {$/;"	P	implementation:Error
+backtrace	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/error.rs	/^    pub(crate) unsafe fn backtrace(this: Ref<Self>) -> &Backtrace {$/;"	P	implementation:ErrorImpl
+backtrace	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/lib.rs	/^mod backtrace;$/;"	n
+backtrace_if_absent	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/backtrace.rs	/^macro_rules! backtrace_if_absent {$/;"	M
+bail	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/macros.rs	/^macro_rules! bail {$/;"	M
+boxed	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/ptr.rs	/^    pub unsafe fn boxed(self) -> Box<T> {$/;"	f
+bpf_target	/home/xortex/git/github.com/elauriault/xdp-nat/xtask/src/run.rs	/^    pub bpf_target: Architecture,$/;"	m	struct:Options
+build	/home/xortex/git/github.com/elauriault/xdp-nat/xtask/src/run.rs	/^fn build(opts: &Options) -> Result<(), anyhow::Error> {$/;"	f
+build_ebpf	/home/xortex/git/github.com/elauriault/xdp-nat/xtask/src/build_ebpf.rs	/^pub fn build_ebpf(opts: Options) -> Result<(), anyhow::Error> {$/;"	f
+build_ebpf	/home/xortex/git/github.com/elauriault/xdp-nat/xtask/src/main.rs	/^mod build_ebpf;$/;"	n
+by_mut	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/ptr.rs	/^    pub fn by_mut(&mut self) -> Mut<T> {$/;"	f
+by_mut	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/ptr.rs	/^    pub fn by_mut(self) -> Mut<'a, T> {$/;"	f
+by_ref	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/ptr.rs	/^    pub fn by_ref(&self) -> Ref<T> {$/;"	f
+by_ref	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/ptr.rs	/^    pub fn by_ref(self) -> Ref<'a, T> {$/;"	f
+bytes	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/ensure.rs	/^    bytes: [MaybeUninit<u8>; 40],$/;"	m	struct:Buf
+capture	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/backtrace.rs	/^        capture: UnsafeCell<Capture>,$/;"	m	struct:capture::LazilyResolvedCapture
+capture	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/backtrace.rs	/^        pub(crate) fn capture() -> Backtrace {$/;"	P	implementation:capture::Backtrace
+capture	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/backtrace.rs	/^mod capture {$/;"	n
+cargo_example	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/clap-4.4.13/src/_cookbook/mod.rs	/^pub mod cargo_example;$/;"	n
+cargo_example_derive	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/clap-4.4.13/src/_cookbook/mod.rs	/^pub mod cargo_example_derive;$/;"	n
+cast	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/ptr.rs	/^    pub fn cast<U: CastTo>(self) -> Mut<'a, U::Target> {$/;"	f
+cast	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/ptr.rs	/^    pub fn cast<U: CastTo>(self) -> Own<U::Target> {$/;"	f
+cast	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/ptr.rs	/^    pub fn cast<U: CastTo>(self) -> Ref<'a, U::Target> {$/;"	f
+chain	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/error.rs	/^    pub fn chain(&self) -> Chain {$/;"	P	implementation:Error
+chain	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/error.rs	/^    pub(crate) unsafe fn chain(this: Ref<Self>) -> Chain {$/;"	P	implementation:ErrorImpl
+chain	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/lib.rs	/^mod chain;$/;"	n
+chapter_0	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/clap-4.4.13/src/_derive/_tutorial/mod.rs	/^pub mod chapter_0;$/;"	n
+chapter_0	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/clap-4.4.13/src/_tutorial/mod.rs	/^pub mod chapter_0;$/;"	n
+chapter_1	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/clap-4.4.13/src/_derive/_tutorial/mod.rs	/^pub mod chapter_1;$/;"	n
+chapter_1	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/clap-4.4.13/src/_tutorial/mod.rs	/^pub mod chapter_1;$/;"	n
+chapter_2	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/clap-4.4.13/src/_derive/_tutorial/mod.rs	/^pub mod chapter_2;$/;"	n
+chapter_2	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/clap-4.4.13/src/_tutorial/mod.rs	/^pub mod chapter_2;$/;"	n
+chapter_3	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/clap-4.4.13/src/_derive/_tutorial/mod.rs	/^pub mod chapter_3;$/;"	n
+chapter_3	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/clap-4.4.13/src/_tutorial/mod.rs	/^pub mod chapter_3;$/;"	n
+chapter_4	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/clap-4.4.13/src/_derive/_tutorial/mod.rs	/^pub mod chapter_4;$/;"	n
+chapter_4	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/clap-4.4.13/src/_tutorial/mod.rs	/^pub mod chapter_4;$/;"	n
+chapter_5	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/clap-4.4.13/src/_derive/_tutorial/mod.rs	/^pub mod chapter_5;$/;"	n
+chapter_5	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/clap-4.4.13/src/_tutorial/mod.rs	/^pub mod chapter_5;$/;"	n
+clone	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/ptr.rs	/^    fn clone(&self) -> Self {$/;"	f
+colno	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/backtrace.rs	/^        colno: Option<u32>,$/;"	m	struct:capture::BacktraceSymbol
+command	/home/xortex/git/github.com/elauriault/xdp-nat/xtask/src/main.rs	/^    command: Command,$/;"	m	struct:Options
+construct	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/error.rs	/^    unsafe fn construct<E>($/;"	P	implementation:Error
+context	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/context.rs	/^    fn context<C>(self, context: C) -> Result<T, Error>$/;"	P	implementation:Option
+context	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/context.rs	/^    fn context<C>(self, context: C) -> Result<T, Error>$/;"	f
+context	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/error.rs	/^    pub context: C,$/;"	m	struct:ContextError
+context	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/error.rs	/^    pub fn context<C>(self, context: C) -> Self$/;"	P	implementation:Error
+context	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/lib.rs	/^    fn context<C>(self, context: C) -> Result<T, Error>$/;"	P	interface:Context
+context	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/lib.rs	/^mod context;$/;"	n
+context_backtrace	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/error.rs	/^unsafe fn context_backtrace<C>(e: Ref<ErrorImpl>) -> Option<&Backtrace>$/;"	f
+context_chain_downcast	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/error.rs	/^unsafe fn context_chain_downcast<C>(e: Ref<ErrorImpl>, target: TypeId) -> Option<Ref<()>>$/;"	f
+context_chain_downcast_mut	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/error.rs	/^unsafe fn context_chain_downcast_mut<C>(e: Mut<ErrorImpl>, target: TypeId) -> Option<Mut<()>>$/;"	f
+context_chain_drop_rest	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/error.rs	/^unsafe fn context_chain_drop_rest<C>(e: Own<ErrorImpl>, target: TypeId)$/;"	f
+context_downcast	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/error.rs	/^unsafe fn context_downcast<C, E>(e: Ref<ErrorImpl>, target: TypeId) -> Option<Ref<()>>$/;"	f
+context_downcast_mut	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/error.rs	/^unsafe fn context_downcast_mut<C, E>(e: Mut<ErrorImpl>, target: TypeId) -> Option<Mut<()>>$/;"	f
+context_drop_rest	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/error.rs	/^unsafe fn context_drop_rest<C, E>(e: Own<ErrorImpl>, target: TypeId)$/;"	f
+create	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/backtrace.rs	/^        fn create(ip: usize) -> Backtrace {$/;"	P	implementation:capture::Backtrace
+debug	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/fmt.rs	/^    pub(crate) unsafe fn debug(this: Ref<Self>, f: &mut fmt::Formatter) -> fmt::Result {$/;"	P	implementation:ErrorImpl
+default	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/chain.rs	/^    fn default() -> Self {$/;"	P	implementation:Chain
+deref	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/error.rs	/^    fn deref(&self) -> &Self::Target {$/;"	P	implementation:Error
+deref	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/ptr.rs	/^    pub unsafe fn deref(self) -> &'a T {$/;"	f
+deref_mut	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/error.rs	/^    fn deref_mut(&mut self) -> &mut Self::Target {$/;"	P	implementation:Error
+deref_mut	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/ptr.rs	/^    pub unsafe fn deref_mut(self) -> &'a mut T {$/;"	f
+display	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/fmt.rs	/^    pub(crate) unsafe fn display(this: Ref<Self>, f: &mut fmt::Formatter) -> fmt::Result {$/;"	P	implementation:ErrorImpl
+downcast	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/error.rs	/^    pub fn downcast<E>(mut self) -> Result<E, Self>$/;"	P	implementation:Error
+downcast_mut	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/error.rs	/^    pub fn downcast_mut<E>(&mut self) -> Option<&mut E>$/;"	P	implementation:Error
+downcast_ref	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/error.rs	/^    pub fn downcast_ref<E>(&self) -> Option<&E>$/;"	P	implementation:Error
+drop	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/error.rs	/^    fn drop(&mut self) {$/;"	P	implementation:Error
+enabled	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/backtrace.rs	/^        fn enabled() -> bool {$/;"	P	implementation:capture::Backtrace
+ensure	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/lib.rs	/^mod ensure;$/;"	n
+ensure	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/macros.rs	/^macro_rules! ensure {$/;"	M
+erase	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/error.rs	/^    fn erase(&self) -> Ref<ErrorImpl> {$/;"	P	implementation:ErrorImpl
+error	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/error.rs	/^    pub error: E,$/;"	m	struct:ContextError
+error	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/error.rs	/^    pub(crate) unsafe fn error(this: Ref<Self>) -> &(dyn StdError + Send + Sync + 'static) {$/;"	P	implementation:ErrorImpl
+error	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/lib.rs	/^mod error;$/;"	n
+error_mut	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/error.rs	/^    pub(crate) unsafe fn error_mut(this: Mut<Self>) -> &mut (dyn StdError + Send + Sync + 'stati/;"	P	implementation:ErrorImpl
+escaped_positional	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/clap-4.4.13/src/_cookbook/mod.rs	/^pub mod escaped_positional;$/;"	n
+escaped_positional_derive	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/clap-4.4.13/src/_cookbook/mod.rs	/^pub mod escaped_positional_derive;$/;"	n
+ext	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/context.rs	/^mod ext {$/;"	n
+ext_context	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/context.rs	/^        fn ext_context<C>(self, context: C) -> Error$/;"	P	implementation:ext::Error
+ext_context	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/context.rs	/^        fn ext_context<C>(self, context: C) -> Error$/;"	P	interface:ext::StdError
+ext_context	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/context.rs	/^        fn ext_context<C>(self, context: C) -> Error$/;"	f	module:ext
+extend	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/ptr.rs	/^    pub fn extend<'b>(self) -> Mut<'b, T> {$/;"	f
+filename	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/backtrace.rs	/^        filename: Option<BytesOrWide>,$/;"	m	struct:capture::BacktraceSymbol
+find	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/clap-4.4.13/src/_cookbook/mod.rs	/^pub mod find;$/;"	n
+fmt	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/backtrace.rs	/^        fn fmt(&self, fmt: &mut fmt::Formatter) -> fmt::Result {$/;"	P	implementation:capture::Backtrace
+fmt	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/backtrace.rs	/^        fn fmt(&self, fmt: &mut fmt::Formatter) -> fmt::Result {$/;"	P	implementation:capture::BacktraceFrame
+fmt	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/backtrace.rs	/^        fn fmt(&self, fmt: &mut fmt::Formatter) -> fmt::Result {$/;"	P	implementation:capture::BacktraceSymbol
+fmt	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/backtrace.rs	/^        fn fmt(&self, fmt: &mut fmt::Formatter) -> fmt::Result {$/;"	P	implementation:capture::BytesOrWide
+fmt	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/context.rs	/^    fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {$/;"	f
+fmt	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/context.rs	/^    fn fmt(&self, formatter: &mut fmt::Formatter) -> fmt::Result {$/;"	f
+fmt	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/error.rs	/^    fn fmt(&self, formatter: &mut fmt::Formatter) -> fmt::Result {$/;"	P	implementation:Error
+fmt	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/error.rs	/^    fn fmt(&self, formatter: &mut fmt::Formatter) -> fmt::Result {$/;"	f
+fmt	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/lib.rs	/^mod fmt;$/;"	n
+fmt	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/wrapper.rs	/^    fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {$/;"	P	implementation:BoxedError
+fmt	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/wrapper.rs	/^    fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {$/;"	f
+fmt	/home/xortex/git/github.com/elauriault/xdp-nat/xtask/src/build_ebpf.rs	/^    fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {$/;"	P	implementation:Architecture
+force	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/backtrace.rs	/^        fn force(&self) -> &Capture {$/;"	P	implementation:capture::LazilyResolvedCapture
+format_err	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/lib.rs	/^    pub fn format_err(args: Arguments) -> Error {$/;"	f	module:__private
+frame	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/backtrace.rs	/^        frame: Frame,$/;"	m	struct:capture::BacktraceFrame
+frames	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/backtrace.rs	/^        frames: Vec<BacktraceFrame>,$/;"	m	struct:capture::Capture
+from	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/error.rs	/^    fn from(error: E) -> Self {$/;"	f
+from	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/error.rs	/^    fn from(error: Error) -> Self {$/;"	P	implementation:Box
+from_adhoc	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/error.rs	/^    pub(crate) fn from_adhoc<M>(message: M, backtrace: Option<Backtrace>) -> Self$/;"	P	implementation:Error
+from_boxed	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/error.rs	/^    pub(crate) fn from_boxed($/;"	P	implementation:Error
+from_context	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/error.rs	/^    pub(crate) fn from_context<C, E>(context: C, error: E, backtrace: Option<Backtrace>) -> Self$/;"	P	implementation:Error
+from_display	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/error.rs	/^    pub(crate) fn from_display<M>(message: M, backtrace: Option<Backtrace>) -> Self$/;"	P	implementation:Error
+from_raw	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/ptr.rs	/^    pub fn from_raw(ptr: NonNull<T>) -> Self {$/;"	f
+from_std	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/error.rs	/^    pub(crate) fn from_std<E>(error: E, backtrace: Option<Backtrace>) -> Self$/;"	P	implementation:Error
+from_str	/home/xortex/git/github.com/elauriault/xdp-nat/xtask/src/build_ebpf.rs	/^    fn from_str(s: &str) -> Result<Self, Self::Err> {$/;"	P	implementation:Architecture
+git	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/clap-4.4.13/src/_cookbook/mod.rs	/^pub mod git;$/;"	n
+git_derive	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/clap-4.4.13/src/_cookbook/mod.rs	/^pub mod git_derive;$/;"	n
+impl_backtrace	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/backtrace.rs	/^macro_rules! impl_backtrace {$/;"	M
+inner	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/backtrace.rs	/^        inner: Inner,$/;"	m	struct:capture::Backtrace
+inner	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/fmt.rs	/^    inner: &'a mut D,$/;"	m	struct:Indented
+inner	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/lib.rs	/^    inner: Own<ErrorImpl>,$/;"	m	struct:Error
+is	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/error.rs	/^    pub fn is<E>(&self) -> bool$/;"	P	implementation:Error
+kind	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/lib.rs	/^    pub mod kind {$/;"	n	module:__private
+kind	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/lib.rs	/^mod kind;$/;"	n
+len	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/chain.rs	/^    fn len(&self) -> usize {$/;"	P	implementation:Chain
+lifetime	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/ptr.rs	/^    lifetime: PhantomData<&'a T>,$/;"	m	struct:Ref
+lifetime	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/ptr.rs	/^    lifetime: PhantomData<&'a mut T>,$/;"	m	struct:Mut
+lineno	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/backtrace.rs	/^        lineno: Option<u32>,$/;"	m	struct:capture::BacktraceSymbol
+macros	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/lib.rs	/^mod macros;$/;"	n
+main	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/clap-4.4.13/src/bin/stdio-fixture.rs	/^fn main() {$/;"	f
+main	/home/xortex/git/github.com/elauriault/xdp-nat/xtask/src/main.rs	/^fn main() {$/;"	f
+msg	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/error.rs	/^    pub fn msg<M>(message: M) -> Self$/;"	P	implementation:Error
+multicall_busybox	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/clap-4.4.13/src/_cookbook/mod.rs	/^pub mod multicall_busybox;$/;"	n
+multicall_hostname	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/clap-4.4.13/src/_cookbook/mod.rs	/^pub mod multicall_hostname;$/;"	n
+must_use	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/lib.rs	/^    pub fn must_use(error: Error) -> Error {$/;"	f	module:__private
+name	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/backtrace.rs	/^        name: Option<Vec<u8>>,$/;"	m	struct:capture::BacktraceSymbol
+new	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/backtrace.rs	/^        fn new(capture: Capture) -> Self {$/;"	P	implementation:capture::LazilyResolvedCapture
+new	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/chain.rs	/^    pub fn new(head: &'a (dyn StdError + 'static)) -> Self {$/;"	P	implementation:Chain
+new	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/ensure.rs	/^    fn new() -> Self {$/;"	P	implementation:Buf
+new	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/error.rs	/^    pub fn new<E>(error: E) -> Self$/;"	P	implementation:Error
+new	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/kind.rs	/^    pub fn new(self, error: Box<dyn StdError + Send + Sync>) -> Error {$/;"	P	implementation:Boxed
+new	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/kind.rs	/^    pub fn new<E>(self, error: E) -> Error$/;"	P	implementation:Trait
+new	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/kind.rs	/^    pub fn new<M>(self, message: M) -> Error$/;"	P	implementation:Adhoc
+new	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/ptr.rs	/^    pub fn new(ptr: &'a T) -> Self {$/;"	f
+new	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/ptr.rs	/^    pub fn new(ptr: &'a mut T) -> Self {$/;"	f
+new	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/ptr.rs	/^    pub fn new(ptr: Box<T>) -> Self {$/;"	f
+next	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/chain.rs	/^    fn next(&mut self) -> Option<Self::Item> {$/;"	P	implementation:Chain
+next_back	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/chain.rs	/^    fn next_back(&mut self) -> Option<Self::Item> {$/;"	P	implementation:Chain
+no_backtrace	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/error.rs	/^fn no_backtrace(e: Ref<ErrorImpl>) -> Option<&Backtrace> {$/;"	f
+no_digits	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/fmt.rs	/^    fn no_digits() {$/;"	f	module:tests
+number	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/fmt.rs	/^    number: Option<usize>,$/;"	m	struct:Indented
+object_backtrace	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/error.rs	/^    object_backtrace: unsafe fn(Ref<ErrorImpl>) -> Option<&Backtrace>,$/;"	m	struct:ErrorVTable
+object_boxed	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/error.rs	/^    object_boxed: unsafe fn(Own<ErrorImpl>) -> Box<dyn StdError + Send + Sync + 'static>,$/;"	m	struct:ErrorVTable
+object_boxed	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/error.rs	/^unsafe fn object_boxed<E>(e: Own<ErrorImpl>) -> Box<dyn StdError + Send + Sync + 'static>$/;"	f
+object_downcast	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/error.rs	/^    object_downcast: unsafe fn(Ref<ErrorImpl>, TypeId) -> Option<Ref<()>>,$/;"	m	struct:ErrorVTable
+object_downcast	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/error.rs	/^unsafe fn object_downcast<E>(e: Ref<ErrorImpl>, target: TypeId) -> Option<Ref<()>>$/;"	f
+object_downcast_mut	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/error.rs	/^    object_downcast_mut: unsafe fn(Mut<ErrorImpl>, TypeId) -> Option<Mut<()>>,$/;"	m	struct:ErrorVTable
+object_downcast_mut	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/error.rs	/^unsafe fn object_downcast_mut<E>(e: Mut<ErrorImpl>, target: TypeId) -> Option<Mut<()>>$/;"	f
+object_drop	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/error.rs	/^    object_drop: unsafe fn(Own<ErrorImpl>),$/;"	m	struct:ErrorVTable
+object_drop	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/error.rs	/^unsafe fn object_drop<E>(e: Own<ErrorImpl>) {$/;"	f
+object_drop_front	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/error.rs	/^unsafe fn object_drop_front<E>(e: Own<ErrorImpl>, target: TypeId) {$/;"	f
+object_drop_rest	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/error.rs	/^    object_drop_rest: unsafe fn(Own<ErrorImpl>, TypeId),$/;"	m	struct:ErrorVTable
+object_mut	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/error.rs	/^    object_mut: unsafe fn(Mut<ErrorImpl>) -> &mut (dyn StdError + Send + Sync + 'static),$/;"	m	struct:ErrorVTable
+object_mut	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/error.rs	/^unsafe fn object_mut<E>(e: Mut<ErrorImpl>) -> &mut (dyn StdError + Send + Sync + 'static)$/;"	f
+object_ref	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/error.rs	/^    object_ref: unsafe fn(Ref<ErrorImpl>) -> Ref<dyn StdError + Send + Sync + 'static>,$/;"	m	struct:ErrorVTable
+object_ref	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/error.rs	/^unsafe fn object_ref<E>(e: Ref<ErrorImpl>) -> Ref<dyn StdError + Send + Sync + 'static>$/;"	f
+one_digit	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/fmt.rs	/^    fn one_digit() {$/;"	f	module:tests
+output_filename	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/backtrace.rs	/^    fn output_filename($/;"	f	module:capture
+pacman	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/clap-4.4.13/src/_cookbook/mod.rs	/^pub mod pacman;$/;"	n
+private	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/context.rs	/^pub(crate) mod private {$/;"	n
+provide	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/context.rs	/^    fn provide<'a>(&'a self, request: &mut Request<'a>) {$/;"	f
+provide	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/error.rs	/^    fn provide<'a>(&'a self, request: &mut Request<'a>) {$/;"	f
+provide	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/error.rs	/^    pub(crate) fn provide<'a>(&'a self, request: &mut Request<'a>) {$/;"	P	implementation:Error
+provide	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/error.rs	/^    unsafe fn provide<'a>(this: Ref<'a, Self>, request: &mut Request<'a>) {$/;"	P	implementation:ErrorImpl
+provide	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/wrapper.rs	/^    fn provide<'a>(&'a self, request: &mut Request<'a>) {$/;"	P	implementation:BoxedError
+ptr	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/lib.rs	/^mod ptr;$/;"	n
+ptr	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/ptr.rs	/^    pub ptr: NonNull<T>,$/;"	m	struct:Mut
+ptr	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/ptr.rs	/^    pub ptr: NonNull<T>,$/;"	m	struct:Own
+ptr	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/ptr.rs	/^    pub ptr: NonNull<T>,$/;"	m	struct:Ref
+read	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/ptr.rs	/^    pub unsafe fn read(self) -> T {$/;"	P	implementation:Mut
+release	/home/xortex/git/github.com/elauriault/xdp-nat/xtask/src/build_ebpf.rs	/^    pub release: bool,$/;"	m	struct:Options
+release	/home/xortex/git/github.com/elauriault/xdp-nat/xtask/src/run.rs	/^    pub release: bool,$/;"	m	struct:Options
+render	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/ensure.rs	/^fn render(msg: &'static str, lhs: &dyn Debug, rhs: &dyn Debug) -> Error {$/;"	f
+repl	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/clap-4.4.13/src/_cookbook/mod.rs	/^pub mod repl;$/;"	n
+resolve	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/backtrace.rs	/^        fn resolve(&mut self) {$/;"	P	implementation:capture::Capture
+resolved	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/backtrace.rs	/^        resolved: bool,$/;"	m	struct:capture::Capture
+root_cause	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/error.rs	/^    pub fn root_cause(&self) -> &(dyn StdError + 'static) {$/;"	P	implementation:Error
+run	/home/xortex/git/github.com/elauriault/xdp-nat/xtask/src/main.rs	/^mod run;$/;"	n
+run	/home/xortex/git/github.com/elauriault/xdp-nat/xtask/src/run.rs	/^pub fn run(opts: Options) -> Result<(), anyhow::Error> {$/;"	f
+run_args	/home/xortex/git/github.com/elauriault/xdp-nat/xtask/src/run.rs	/^    pub run_args: Vec<String>,$/;"	m	struct:Options
+runner	/home/xortex/git/github.com/elauriault/xdp-nat/xtask/src/run.rs	/^    pub runner: String,$/;"	m	struct:Options
+size_hint	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/chain.rs	/^    fn size_hint(&self) -> (usize, Option<usize>) {$/;"	P	implementation:Chain
+source	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/context.rs	/^    fn source(&self) -> Option<&(dyn StdError + 'static)> {$/;"	f
+source	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/error.rs	/^    fn source(&self) -> Option<&(dyn StdError + 'static)> {$/;"	f
+source	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/lib.rs	/^    fn source(&self) -> Option<&(dyn StdError + 'static)> {$/;"	P	interface:StdError
+source	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/wrapper.rs	/^    fn source(&self) -> Option<&(dyn StdError + 'static)> {$/;"	P	implementation:BoxedError
+started	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/fmt.rs	/^    started: bool,$/;"	m	struct:Indented
+state	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/chain.rs	/^    state: ChainState<'a>,$/;"	m	struct:Chain
+state	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/lib.rs	/^    state: crate::chain::ChainState<'a>,$/;"	m	struct:Chain
+status	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/backtrace.rs	/^        pub(crate) fn status(&self) -> BacktraceStatus {$/;"	P	implementation:capture::Backtrace
+symbols	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/backtrace.rs	/^        symbols: Vec<BacktraceSymbol>,$/;"	m	struct:capture::BacktraceFrame
+sync	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/backtrace.rs	/^        sync: Once,$/;"	m	struct:capture::LazilyResolvedCapture
+target	/home/xortex/git/github.com/elauriault/xdp-nat/xtask/src/build_ebpf.rs	/^    pub target: Architecture,$/;"	m	struct:Options
+tests	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/fmt.rs	/^mod tests {$/;"	n
+thiserror_provide	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/error.rs	/^    pub fn thiserror_provide<'a>(&'a self, request: &mut Request<'a>) {$/;"	P	implementation:Error
+two_digits	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/fmt.rs	/^    fn two_digits() {$/;"	f	module:tests
+typed_derive	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/clap-4.4.13/src/_cookbook/mod.rs	/^pub mod typed_derive;$/;"	n
+vtable	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/error.rs	/^    vtable: &'static ErrorVTable,$/;"	m	struct:ErrorImpl
+vtable	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/error.rs	/^unsafe fn vtable(p: NonNull<ErrorImpl>) -> &'static ErrorVTable {$/;"	f
+with_context	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/context.rs	/^    fn with_context<C, F>(self, context: F) -> Result<T, Error>$/;"	P	implementation:Option
+with_context	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/context.rs	/^    fn with_context<C, F>(self, context: F) -> Result<T, Error>$/;"	f
+with_context	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/lib.rs	/^    fn with_context<C, F>(self, f: F) -> Result<T, Error>$/;"	P	interface:Context
+wrapper	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/lib.rs	/^mod wrapper;$/;"	n
+write_str	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/context.rs	/^    fn write_str(&mut self, s: &str) -> fmt::Result {$/;"	P	implementation:Quoted
+write_str	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/ensure.rs	/^    fn write_str(&mut self, s: &str) -> fmt::Result {$/;"	P	implementation:Buf
+write_str	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/fmt.rs	/^    fn write_str(&mut self, s: &str) -> fmt::Result {$/;"	f
+written	/home/xortex/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.79/src/ensure.rs	/^    written: usize,$/;"	m	struct:Buf
