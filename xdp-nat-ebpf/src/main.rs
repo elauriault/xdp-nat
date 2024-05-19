@@ -12,7 +12,7 @@ use network_types::{
     udp::UdpHdr,
 };
 
-use aya_bpf::{
+use aya_ebpf::{
     bindings::xdp_action,
     macros::{map, xdp},
     maps::{HashMap, PerfEventArray},
