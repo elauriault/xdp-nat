@@ -122,7 +122,7 @@ pub fn splitu32(input: u32) -> [u16; 2] {
     let r1 = (input & 0xffff) as u16;
     let r2 = input >> 16;
     let r2 = (r2 & 0xffff) as u16;
-    return [r1, r2];
+    [r1, r2]
 }
 
 #[inline]
@@ -130,15 +130,15 @@ pub fn l3csumdiff(oldip: u32, newip: u32, oldcsum: u16) -> u16 {
     let mut csum: u64 = !oldcsum as u64;
     let old = splitu32(oldip);
     let new = splitu32(newip);
-    for i in 0..2 {
-        csum = csum - old[i] as u64;
-    }
+    (0..2).for_each(|i| {
+        csum -= old[i] as u64;
+    });
     csum = (csum & 0xffff) + (csum >> 16);
-    for i in 0..2 {
-        csum = csum + new[i] as u64;
-    }
+    (0..2).for_each(|i| {
+        csum += new[i] as u64;
+    });
     csum = (csum & 0xffff) + (csum >> 16);
-    return !(csum as u16);
+    !(csum as u16)
 }
 
 #[inline]
@@ -146,15 +146,15 @@ pub fn l4csumdiff(oldip: u32, newip: u32, oldport: u16, newport: u16, oldcsum: u
     let mut csum: u64 = !oldcsum as u64;
     let old = splitu32(oldip);
     let new = splitu32(newip);
-    for i in 0..2 {
-        csum = csum - old[i] as u64;
-    }
-    csum = csum - oldport as u64;
+    (0..2).for_each(|i| {
+        csum -= old[i] as u64;
+    });
+    csum -= oldport as u64;
     csum = (csum & 0xffff) + (csum >> 16);
-    for i in 0..2 {
-        csum = csum + new[i] as u64;
-    }
-    csum = csum + newport as u64;
+    (0..2).for_each(|i| {
+        csum += new[i] as u64;
+    });
+    csum += newport as u64;
     csum = (csum & 0xffff) + (csum >> 16);
-    return !(csum as u16);
+    !(csum as u16)
 }
