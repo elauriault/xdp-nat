@@ -1,7 +1,7 @@
 use anyhow::Context;
 use aya::programs::{Xdp, XdpFlags};
-use aya::{include_bytes_aligned, Bpf};
-use aya_log::BpfLogger;
+use aya::{include_bytes_aligned, Ebpf};
+use aya_log::EbpfLogger;
 use clap::Parser;
 use log::{debug, info, warn};
 use tokio::signal;
@@ -34,14 +34,14 @@ async fn main() -> Result<(), anyhow::Error> {
     // like to specify the eBPF program at runtime rather than at compile-time, you can
     // reach for `Bpf::load_file` instead.
     #[cfg(debug_assertions)]
-    let mut bpf = Bpf::load(include_bytes_aligned!(
+    let mut bpf = Ebpf::load(include_bytes_aligned!(
         "../../target/bpfel-unknown-none/debug/xdp-nat"
     ))?;
     #[cfg(not(debug_assertions))]
-    let mut bpf = Bpf::load(include_bytes_aligned!(
+    let mut bpf = Ebpf::load(include_bytes_aligned!(
         "../../target/bpfel-unknown-none/release/xdp-nat"
     ))?;
-    if let Err(e) = BpfLogger::init(&mut bpf) {
+    if let Err(e) = EbpfLogger::init(&mut bpf) {
         // This can happen if you remove all log statements from your eBPF program.
         warn!("failed to initialize eBPF logger: {}", e);
     }

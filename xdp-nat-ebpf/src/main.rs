@@ -51,7 +51,7 @@ unsafe fn ptr_at<T>(ctx: &XdpContext, offset: usize) -> Result<*const T, ()> {
 }
 
 #[map(name = "SNAT_TABLE")]
-static mut SNAT_TABLE: HashMap<u64, u64> = HashMap::with_max_entries(10240, 0);
+static SNAT_TABLE: HashMap<u64, u64> = HashMap::with_max_entries(10240, 0);
 
 unsafe fn try_xdp_nat(ctx: XdpContext) -> Result<u32, ()> {
     let ip: *const Ipv4Hdr = unsafe { ptr_at(&ctx, EthHdr::LEN)? };
