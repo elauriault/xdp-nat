@@ -4,8 +4,8 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-aya-ebpf = "0.1.0"
-aya-log-ebpf = "0.1.0"
+aya-ebpf = "0.1.1"
+aya-log-ebpf = "0.1.1"
 xdp-nat-common = { path = "../xdp-nat-common" }
 memoffset = "*"
 network-types = "0.0.5"
