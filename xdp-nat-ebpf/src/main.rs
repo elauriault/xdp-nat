@@ -3,6 +3,13 @@
 #![allow(unused_imports)]
 #![allow(dead_code)]
 
+use aya_ebpf::{
+    bindings::xdp_action,
+    macros::{map, xdp},
+    maps::{HashMap, PerfEventArray},
+    programs::XdpContext,
+};
+
 use aya_log_ebpf::info;
 use core::mem;
 use network_types::{
@@ -12,17 +19,13 @@ use network_types::{
     udp::UdpHdr,
 };
 
-use aya_ebpf::{
-    bindings::xdp_action,
-    macros::{map, xdp},
-    maps::{HashMap, PerfEventArray},
-    programs::XdpContext,
-};
-
-use xdp_nat_common::PacketLog;
-
-// const ETH_HDR_LEN: usize = mem::size_of::<EthHdr>();
-// const IP_HDR_LEN: usize = mem::size_of::<Ipv4Hdr>();
+// #[xdp]
+// pub fn xdp_nat(ctx: XdpContext) -> u32 {
+//     match try_xdp_nat(ctx) {
+//         Ok(ret) => ret,
+//         Err(_) => xdp_action::XDP_ABORTED,
+//     }
+// }
 
 #[xdp]
 pub fn xdp_nat(ctx: XdpContext) -> u32 {
@@ -32,9 +35,16 @@ pub fn xdp_nat(ctx: XdpContext) -> u32 {
     }
 }
 
+// fn try_xdp_nat(ctx: XdpContext) -> Result<u32, u32> {
+//     info!(&ctx, "received a packet");
+//     Ok(xdp_action::XDP_PASS)
+// }
+//
+
+#[cfg(not(test))]
 #[panic_handler]
 fn panic(_info: &core::panic::PanicInfo) -> ! {
-    unsafe { core::hint::unreachable_unchecked() }
+    loop {}
 }
 
 #[inline(always)]
