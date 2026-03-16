@@ -1,14 +1,14 @@
 [package]
 name = "xdp-nat-ebpf"
 version = "0.1.0"
-edition = "2021"
+edition.workspace = true
 
 [dependencies]
 xdp-nat-common = { path = "../xdp-nat-common" }
 
 aya-ebpf = { workspace = true }
 aya-log-ebpf = { workspace = true }
-network-types = { workspace = true }
+network-types = "0.1.0"
 
 [build-dependencies]
 which = { workspace = true }

@@ -14,7 +14,7 @@
 Use `cargo build`, `cargo check`, etc. as normal. Run your program with:
 
 ```shell
-cargo run --release --config 'target."cfg(all())".runner="sudo -E"'
+cargo run --release --config 'target."cfg(all())".runner="sudo -E"' -- --iface eth0
 ```
 
 Cargo build scripts are used to automatically build the eBPF correctly and include it in the
@@ -31,3 +31,22 @@ CC=${ARCH}-linux-musl-gcc cargo build --package xdp-nat --release \
 ```
 The cross-compiled program `target/${ARCH}-unknown-linux-musl/release/xdp-nat` can be
 copied to a Linux server or VM and run there.
+
+```
+## Add nat entries
+
+The only quirk is that IPs need to be split in bytes. Decimal and hexadecimal
+notations are supported.
+
+i.e:
+
+192.168.0.254:TCP:443 -> 1.2.3.4:TCP:23
+```
+bpftool map update name SNAT_TABLE key 192 168 0 254 0xbb 0x1 6 0 value 1 2 3 4 0 23 0 0
+```
+
+Notes on the format:
+
+1. Key and value formats : ip (4 bytes), port (2 bytes), protocol (single byte padded with 0x0)
+2. The byte order for the key's port is reversed from the value
+3. The protocol field of the value is ignored
