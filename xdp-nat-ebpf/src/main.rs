@@ -66,28 +66,35 @@ static SNAT_TABLE: HashMap<u64, u64> = HashMap::with_max_entries(10240, 0);
 unsafe fn try_xdp_nat(ctx: XdpContext) -> Result<u32, ()> {
     unsafe {
         let ip: *const Ipv4Hdr = ptr_at(&ctx, EthHdr::LEN)?;
+        let l4_offset = EthHdr::LEN + (*ip).ihl() as usize;
         let saddr = u32::from_be_bytes((*ip).src_addr);
-        let daddr = u32::from_be_bytes((*ip).dst_addr);
         let mut sport = 0;
         match (*ip).proto {
             IpProto::Tcp => {
-                let hdr: *const TcpHdr = ptr_at(&ctx, EthHdr::LEN + Ipv4Hdr::LEN)?;
+                let hdr: *const TcpHdr = ptr_at(&ctx, l4_offset)?;
                 sport = u16::from_be_bytes((*hdr).source);
             }
             IpProto::Udp => {
-                let hdr: *const UdpHdr = ptr_at(&ctx, EthHdr::LEN + Ipv4Hdr::LEN)?;
+                let hdr: *const UdpHdr = ptr_at(&ctx, l4_offset)?;
                 sport = u16::from_be_bytes((*hdr).src);
             }
             _ => {}
         };
         let protocol = (*ip).proto as u32;
 
-        let key = ((saddr as u64) + ((daddr as u64) << 32) as u64) as u64;
+        let key =
+            (saddr.to_be() as u64) | ((sport.to_be() as u64) << 32) | ((protocol as u64) << 48);
 
         if let Some(value) = SNAT_TABLE.get(&key) {
             info!(
                 &ctx,
-                "received an ip packet: {}:{} {}", saddr, sport, protocol
+                "received an ip packet: {}.{}.{}.{}:{} {}",
+                (saddr >> 24) as u8,
+                (saddr >> 16) as u8,
+                (saddr >> 8) as u8,
+                saddr as u8,
+                sport,
+                protocol
             );
 
             let snat = (*value) as u32;
@@ -100,8 +107,7 @@ unsafe fn try_xdp_nat(ctx: XdpContext) -> Result<u32, ()> {
 
             match (*ip).proto {
                 IpProto::Tcp => {
-                    let hdr: *const TcpHdr =
-                        ptr_at(&ctx, EthHdr::LEN + ((*ip).ihl() * 4) as usize)?;
+                    let hdr: *const TcpHdr = ptr_at(&ctx, l4_offset)?;
                     let mhdr: *mut TcpHdr = hdr as *mut TcpHdr;
                     let oldport = u16::from_ne_bytes((*mhdr).source);
                     let oldcheck = u16::from_ne_bytes((*mhdr).check);
@@ -110,8 +116,7 @@ unsafe fn try_xdp_nat(ctx: XdpContext) -> Result<u32, ()> {
                         l4csumdiff(oldsaddr, snat, oldport, port, oldcheck).to_ne_bytes();
                 }
                 IpProto::Udp => {
-                    let hdr: *const UdpHdr =
-                        ptr_at(&ctx, EthHdr::LEN + ((*ip).ihl() * 4) as usize)?;
+                    let hdr: *const UdpHdr = ptr_at(&ctx, l4_offset)?;
                     let mhdr: *mut UdpHdr = hdr as *mut UdpHdr;
                     let oldport = u16::from_ne_bytes((*mhdr).src);
                     let oldcheck = u16::from_ne_bytes((*mhdr).check);
