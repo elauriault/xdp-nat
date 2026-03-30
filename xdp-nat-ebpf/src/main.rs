@@ -19,32 +19,12 @@ use network_types::{
     udp::UdpHdr,
 };
 
-// #[xdp]
-// pub fn xdp_nat(ctx: XdpContext) -> u32 {
-//     match try_xdp_nat(ctx) {
-//         Ok(ret) => ret,
-//         Err(_) => xdp_action::XDP_ABORTED,
-//     }
-// }
-
 #[xdp]
 pub fn xdp_nat(ctx: XdpContext) -> u32 {
     match unsafe { try_xdp_nat(ctx) } {
         Ok(ret) => ret,
         Err(_) => xdp_action::XDP_ABORTED,
     }
-}
-
-// fn try_xdp_nat(ctx: XdpContext) -> Result<u32, u32> {
-//     info!(&ctx, "received a packet");
-//     Ok(xdp_action::XDP_PASS)
-// }
-//
-
-#[cfg(not(test))]
-#[panic_handler]
-fn panic(_info: &core::panic::PanicInfo) -> ! {
-    loop {}
 }
 
 #[inline(always)]

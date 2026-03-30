@@ -1,5 +1,9 @@
 # xdp-nat
 
+## Why this exists?
+
+When developing a stateless maglev load balancer using ipvs, we realized that return traffic was not being snatted on directors without proper conntrack entries created when the traffic was first forwarded using ipvs, it was realized that return traffic snat depends on conntrack entries. Since only a single director receives inbound traffic, returning packets transiting another director were being silently dropped. Since exact snat rules are known in advance and stateless, we run this small xdp program on the anycast vtep interface of directors instead of relying on conntrack.
+
 ## Prerequisites
 
 1. stable rust toolchains: `rustup toolchain install stable`
@@ -32,20 +36,20 @@ CC=${ARCH}-linux-musl-gcc cargo build --package xdp-nat --release \
 The cross-compiled program `target/${ARCH}-unknown-linux-musl/release/xdp-nat` can be
 copied to a Linux server or VM and run there.
 
-```
-## Add nat entries
+## Adding nat entries
 
-IPs and ports are in network byte order (big-endian). Decimal and hexadecimal
+The only quirk is that IPs need to be split in bytes. Decimal and hexadecimal
 notations are supported.
 
 i.e:
 
 192.168.0.254:TCP:443 -> 1.2.3.4:TCP:23
 ```
-bpftool map update name SNAT_TABLE key 192 168 0 254 0x01 0xbb 6 0 value 1 2 3 4 0 23 0 0
+bpftool map update name SNAT_TABLE key 192 168 0 254 0xbb 0x1 6 0 value 1 2 3 4 0 23 0 0
 ```
 
 Notes on the format:
 
-1. Key and value formats : ip (4 bytes), port (2 bytes big-endian), protocol (single byte padded with 0x0)
-2. The protocol field of the value is ignored
+1. Key and value formats : ip (4 bytes), port (2 bytes), protocol (single byte padded with 0x0)
+2. The byte order for the key's port is reversed from the value
+3. The protocol field of the value is ignored
